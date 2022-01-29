@@ -11,8 +11,7 @@ async def read_root():
 
 @app.post("/pro/")
 async def create_item(item=True):
-  res = {
-    	"method": "post",
-    	"response": item
-  }
-  return res
+    return   {
+      	"method": "post",
+      	"response": item
+    }
